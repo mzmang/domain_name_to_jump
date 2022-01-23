@@ -44,7 +44,7 @@ if not rs.eof then
   if tempday >=3 then
     
     arr=rs("yuming")
-    token = "45108feec55e652690c820091b8893b324c73bd7"
+    token = "a40a0aa3041029e7bf8b669f59226089d0f49b22"
     url="http://api.new.urlzt.com/api/vx?token=" + token + "&url=" + arr
       
     data=getHTTPPage(url)
