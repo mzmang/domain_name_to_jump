@@ -50,5 +50,8 @@ set conn=nothing
 %>
 </table>
 </div>
+<div width="628" height="24" align="center" style="padding-top:20px;">
+<input name="add" type="button" value="添加域名" onClick="location.href='add.asp'">
+</div>
 </body>
 </html>

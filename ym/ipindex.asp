@@ -26,8 +26,6 @@ response.write("暂时无访问信息")
 else
 do while not rs.eof
 %>
-
-
 <tr>
 <td width="66" height="22" ><%=rs("id")%></td>
 <td width="66" ><%=rs("IPText")%></td>
@@ -46,9 +44,6 @@ conn.close
 set conn=nothing
 %>
 </table>
-<div width="628" height="24" align="center" style="padding-top:20px;">
-<input name="add" type="button" value="添加域名" onClick="location.href='add.asp'">
-</div>
 </div>
 </body>
 </html>
